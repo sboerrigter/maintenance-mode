@@ -20,7 +20,6 @@ class Maintenance
 
     public function checkCapabilities()
     {
-
         if (! current_user_can('edit_posts')) {
             $this->activate();
         }
